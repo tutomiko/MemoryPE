@@ -23,8 +23,8 @@
 #
 #
 /// <summary>
-/// Creates a process from memory using the current 
-/// executable as base to map @Image to.
+/// Creates a process from memory using the calling 
+/// process' executable file as base to map @Image to.
 /// 
 /// It should be noted that the image provided (@Image) 
 /// must match in architecture that of the calling 
@@ -58,8 +58,8 @@ BOOL MemoryCreateProcessA(
 
 
 /// <summary>
-/// Creates a process from memory using the current 
-/// executable as base to map @Image to.
+/// Creates a process from memory using the calling 
+/// process' executable file as base to map @Image to.
 /// 
 /// It should be noted that the image provided (@Image) 
 /// must match in architecture that of the calling 
