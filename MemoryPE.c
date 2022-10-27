@@ -5,7 +5,7 @@
 #pragma endregion
 #
 #pragma region "platform-dependent imports"
-#include <Windows.h>
+
 #pragma endregion
 #
 #pragma region "platform-independent imports"
